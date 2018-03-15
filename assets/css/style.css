@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container{
+    /* width: 100%; */
+    max-width: 1000px;
+    margin: 0 auto;
+    /* clear: both; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: lightblue;
+    height: 50px;
+    border-bottom: 1px solid #444;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+footer{
+    background-color: lightblue;
+    height: 50px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    clear: both;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    /* z-index: 200; */
+}
+
+nav{
+    float: right;
+    padding-top: 15px;
+    color: #444;
+    text-decoration: none;
+}
+
+nav ul{
+    /* padding: 0;
+    margin: 0; */
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    padding: 0 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #444;
+}
+
+.about {
+    border-right: 1px solid black;
+}
+
+.portfolio {
+    border-right: 1px solid black;
+}
+
+h1{
+    padding: 15px;
+    float: left;
+    background-color: #666;
+    color: white;
+}
+
+h2{
+    /* margin-top : 30px; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: rgb(100, 202, 236);
+    /* text-decoration: underline; */
+    font-weight: bold;
+    font-size: 20pt;
+    border-bottom: 2px solid #777;
+}
+
+.chunk{
+    max-width: 960px;
+    margin: 60px auto;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5%;
+    border: 8px solid #666;
+    min-height: 565px;
+}
+
+.container2{
+    padding-top: 15px;
+}
+
+/* img{
+    float: left;
+    max-width: 300px;
+    margin: 5px;
+} */
+
+.first-img{
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    border: 8px solid #666;
+    margin-right: 30px;
+}
+
+p{
+    color: #444;
+    font-size: 14pt;
+}
+
+body{
+    background: url("../images/background.jpg");
+    position: relative;
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #666;
+  border: 0 none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.work{
+    position: relative;
+    float: left;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+h3{
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    background: lightblue;
+    z-index: 150;
+    font-size: 12pt;
+    text-align: center; 
+}
+
